@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(251, 250, 250);
+    background-color: rgb(230, 228, 228);
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 1.3em;
@@ -55,11 +55,9 @@ body {
 .nav ul li:hover {
     background-color: rgb(247, 0, 0)
 }
-
-
 .presentationes {
     height: 900px;
-    /* background-color: rgb(187, 37, 37); */
+    /* background-color: rgb(187, 37, 37);  */
     width: 100%;
     display: flex;
 
@@ -67,35 +65,72 @@ body {
 
 .presentation {
     box-shadow: -0px 2px  rgb(5, 0, 0);
-    border-radius: 10px;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
     width: 500px;
     display: flex;
     flex-direction: column;
     height: 80%;
     margin: 5% 0 0 5%;
-    /* background-color: aqua;  */
+    background-color: rgb(255, 255, 255);   
 
 
 }
-
+.presentation-head{
+    background-color: rgb(73, 0, 175);
+    height:380px ;
+    border-radius: 40px;
+    border-bottom-right-radius:0px ;
+    border-top-left-radius:0px ;
+}
+.border{
+    background-color: #ffffff;
+    border-radius: 100%;
+    border:2px solid #ffffff;
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+.imagen {
+    height: 100%;
+    /* background-color: #ff0000; */
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 4px solid rgb(73, 0, 175);
+    overflow: hidden;
+    /* box-shadow: 0px 0px 4px 7px rgb(132, 1, 255); */
+    /*Zombra horizontal | Vertical | Difuminado | Crecimieto-sombra | color*/
+    margin: auto;
+    
+}
+.imagen img {
+    padding: 16% 15%;
+    width: 70%;
+}
 .presentation-1 {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 10px;
     text-align: center;
     display: flex;
     flex-direction: column;
     /* background-color: brown;  */
 }
-.presentation-1 h2 {
+.presentation-1 h3 {
     margin: 0;
+   
 }
 
 .presentation-1 p{
-    margin: 2%;
+    margin: 0;
+    padding: 2%;
+    
 }
 .icons {
     width: 100%;
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,7 +143,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    background-color: rgb(1, 1, 40);
+    background-color: rgb(73, 0, 175);
     text-decoration: none;
     color: antiquewhite;
     height: 40px;
@@ -118,13 +153,10 @@ body {
     transition: all .4s ease-in-out;
 
 }
-
 .icons a:hover {
     transform: scale(1.2);
 
 }
-
-
 .presentation-message {
     margin-top: 10%;
     flex-direction: column;
@@ -150,33 +182,14 @@ body {
     margin: 0%;
 }
 
-.imagen {
-    height: 100%;
-    background-color: #ffffff;
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    overflow: hidden;
-    /* box-shadow: 0px 0px 4px 7px rgb(132, 1, 255); */
-    /*Zombra horizontal | Vertical | Difuminado | Crecimieto-sombra | color*/
-    margin: auto;
-    margin-top: 2%;
-    margin-bottom: 0;
-    
-}
-.imagen img {
-    padding: 16% 15%;
-    display: flex;
-    justify-content: center;
-    width: 70%;
-}
+
 
 .descargar {
-    margin-top: 10%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: black;  */
+    /* background-color: black;   */
     width: 100%;
     height: 50px;
 
@@ -210,6 +223,32 @@ body {
     display: grid;
 }
 
+.about{
+    background-color: blueviolet;
+    padding: 10px 40px;
+}
+.tilte-about{
+    color: rgb(255, 85, 0);
+}
+.body-about{
+    display: flex;
+    background-color: aqua;
+}
+.picture{
+    background-color: rgb(255, 255, 255);
+}
+picture img{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
     body {
         margin: 0;
@@ -233,33 +272,51 @@ body {
     
     }
     .presentationes {
-        height: 950px;
+        
         display: flex;
         flex-direction: column;
     }
 
     .presentation {
+        border-radius: 30px;
+        border-bottom-left-radius :0px ;
         width: 90%;
 
     }
 
-    .imagen {
-
-        height: 100%;
-        background-color: white;
+    
+    .presentation-head{
+        background-color: rgb(73, 0, 175);
+        height:300px ;
+        border-radius: 30px;
+        border-bottom-right-radius:0px ;
+        border-top-left-radius:0px ;
+    }
+    .border{
+        display: flex;
+        background-color: #ffffff;
+        border-radius: 100%;
+        border:2px solid #ffffff;
         width: 200px;
         height: 200px;
-        border-radius: 50%;
+        margin: auto;
+        margin-top: 10%;
+        
+    }
+    .imagen {
+        height: 100%;
+        /* background-color: rgb(214, 51, 51); */
+        width: 190px;
+        height: 190px;
         overflow: hidden;
         /* box-shadow: 0px 0px 4px 7px rgb(132, 1, 255); */
         /*Zombra horizontal | Vertical | Difuminado | Crecimieto-sombra | color*/
         margin: auto;
-        margin-bottom: 0%;
-        margin-top: 10%;
+        
     }
 
     .imagen img {
-        background-color: rgba(193, 74, 5, 0.3);
+        /* background-color: rgba(193, 74, 5, 0.3); */
         padding: 16% 15%;
         display: flex;
         justify-content: center;
@@ -285,5 +342,23 @@ body {
         /* background-color: aqua; */
         font-size: 1.5em;
     }
+
+    
+.about{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 40px;
+}
+
+.body-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
 
 }
