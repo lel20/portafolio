@@ -1,0 +1,36 @@
+.produccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container-update{
+    width: 40%;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+
+}
+.logo img{
+    width: 30%;
+   
+}
+.formulario-crear{
+   
+    width:50%;
+    height:60%
+}
+.carta{
+    transition-duration: 0.7s;
+}
+.carta:hover{
+    transform: scale(0.9);
+}
+.tarjetas{
+    transition-duration: 0.7s;
+   
+}
+.tarjetas:hover{
+    background-color: rgba(221, 221, 221, 0.679);
+}
