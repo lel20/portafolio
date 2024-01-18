@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:  url(./static/images/VectorFondo.svg);
+  background-image:  url(/static/images/VectorFondo.svg);
   background-repeat: no-repeat;
   background-position: center;
   
