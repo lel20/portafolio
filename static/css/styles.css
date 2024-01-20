@@ -47,7 +47,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/static/images/VectorFondo.svg);
+  background-image: url(/static/images/VectorFondo.png);
   background-repeat: no-repeat;
   background-position: center;
 
@@ -183,9 +183,6 @@
   margin-bottom: 10%;
 }
 
-.container-proyect {
-  width: 50%;
-}
 
 .container-proyect img {
   border-radius: 20px;
@@ -207,8 +204,7 @@
   padding: 10px;
   border-radius: 20px;
   box-shadow: 0px 0px 2px 4px rgb(214, 212, 216);
-  width: 550px;
-  min-height: 250px;
+  min-height: 200px;
 }
 
 .proyect-botons {
@@ -236,7 +232,7 @@
  
 }
 .formulario{
-  width: 50%;
+  max-width: 800px;
   display: flex;
   flex-direction:column;
   padding: 10px;
@@ -279,12 +275,6 @@
     width: 100%;
   }
 
-<<<<<<< HEAD
-.container-proyect{
-  width: 100%;
-}
-}
-=======
   /* ------ Proyetos ---------  */
 
   .container-proyect {
@@ -297,6 +287,7 @@
     margin-top: 20px;
     font-size: 12px;
     text-align: justify;
+
   }
 
   /* --- Contacto --- */
@@ -310,4 +301,3 @@
   }
 
 }
->>>>>>> cf70d78 (Version Final)
