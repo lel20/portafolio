@@ -26,13 +26,16 @@
       <div class="collapse navbar-collapse" id="Menu">
         <ul class="navbar-nav ms-auto ">
           <li class="nav-item">
-            <a class="nav-link anav " aria-current="page" href="#Mi">Sobre Mi</a>
+            <a class="nav-link anav " aria-current="page" href="#Mi">Sobre Mí</a>
           </li>
           <li class="nav-item">
             <a class="nav-link anav" href="#Habilidades">Habilidades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link anav" href="#Proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link anav" href="#Contacto">Contáctame</a>
           </li>
         </ul>
       </div>
@@ -213,7 +216,8 @@
             responder preguntas frecuentes sobre los estudios de cuarto nivel en la Universidad Nacional de Loja
           </p>
           <div class="proyect-botons">
-            <a class=" btn btn-success text-center" href="https://computacion.unl.edu.ec/chatpos/" target="_blank">Demo</a>
+            <a class=" btn btn-success text-center" href="https://computacion.unl.edu.ec/chatpos/"
+              target="_blank">Demo</a>
             <a class="btn btn-warning" href="https://github.com/lel20/Chatbot_UNL_Posgrados" target="_blank">Código</a>
           </div>
         </div>
@@ -234,14 +238,56 @@
           </div>
         </div>
       </div>
-
-
+    </div>
   </section>
   <!-- Contactos  -->
-  <section class=" container contacto"> COntacto</section>
+  <section class=" container contact">
+    <div class="contact-form">
+      <h1 id="Contacto">Contáctame</h1>
+      <h3>Escríbeme y te responderé lo más breve posible</h3>
+      <form class="formulario" action="https://formsubmit.co/leonardoparedes.v.r@gmail.com" method="POST">
+        <label for="nombre" class="colocar_nombre">Nombre
+          <span class="obligatorio">*</span>
+        </label>
+        <input type="text" name="De" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+        <label for="email" class="colocar_email">Email
+          <span class="obligatorio">*</span>
+        </label>
+        <input type="email" name="Email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+        <label for="telefone" class="colocar_telefono">Teléfono
+        </label>
+        <input type="tel" name="Teléfono" id="telefono" placeholder="Escribe tu teléfono">
+        <label for="asunto" class="colocar_asunto">Asunto
+          <span class="obligatorio">*</span>
+        </label>
+        <input type="text" name="Asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+        <label for="mensaje" class="colocar_mensaje">Mensaje
+          <span class="obligatorio">*</span>
+        </label>
+        <textarea name="Mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+          placeholder="Deja aquí tu comentario..."></textarea>
+        <button type="submit"  id="enviar">
+          <p>Enviar</p>
+        </button>
+        <p class="text-danger">
+          <span> * </span>los campos son obligatorios.
+        </p>
+      </form>
+    </div>
+  </section>
   <!-- Pie de página -->
-  <footer class="continer-fluid bg-dark footer text-white">Pie de pagina</footer>
-
+  <footer class="continer-fluid bg-dark footer text-white">
+    <div class="row">
+      <div class="col-md-6">
+        <h6>Portafolio Personal</h6>
+        <p>Leonardo Videne paredes Rivas</p>
+        <p>España - Ganada</p>
+      </div>
+      <div class="col-md-6">
+        <p> <a class="nav-item text-white" href="mailto:leonardoparedes.v.r@gmail.com?">leonardoparedes.v.r@gmail.com</a></p>
+        <p><a class="nav-item text-white" href="tel:+34610937223">+34 610 937 223</a></p>
+      </div>
+    </div>
   <script src="static/js/bootstrap.min.js"></script>
 </body>
 

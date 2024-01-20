@@ -3,7 +3,7 @@
 }
 
 .navegacion {
-  min-height:80px;
+  min-height: 80px;
 }
 
 /* sobre mi */
@@ -24,7 +24,7 @@
   min-height: 500px;
   width: 100%;
   box-shadow: 5px 5px 5px rgb(36, 36, 36);
-  margin:1% auto 2% auto;
+  margin: 1% auto 2% auto;
 
 }
 
@@ -47,15 +47,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image:  url(/static/images/VectorFondo.svg);
+  background-image: url(/static/images/VectorFondo.svg);
   background-repeat: no-repeat;
   background-position: center;
-  
-  
+
+
 }
 
-.ilustracion img{
-  width:300px;
+.ilustracion img {
+  width: 300px;
   height: 300px;
   border-top-left-radius: 50% 50%;
   border-top-right-radius: 50% 50%;
@@ -162,7 +162,7 @@
 
 }
 
-.body-card {  
+.body-card {
   border-radius: 3%;
   display: flex;
   flex-direction: column;
@@ -170,49 +170,107 @@
   justify-content: center;
 
 }
+
 .imagen {
   width: 40%;
 }
 
 /* ------ Proyetos ---------  */
-.proyectos{
+.proyectos {
   /* background-color:rgb(196, 196, 196); */
   margin-top: 20%;
   min-height: 100px;
   margin-bottom: 10%;
 }
-.container-proyect{
+
+.container-proyect {
   width: 50%;
 }
-.container-proyect img{
+
+.container-proyect img {
   border-radius: 20px;
   box-shadow: 0px 0px 2px 4px rgb(214, 212, 216);
   width: 100%;
 }
-.row-proyect{
+
+.row-proyect {
   margin-top: 5%;
+  box-shadow: 0px 0px 5px 2px rgb(0, 98, 255);
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
 }
-.columna{
-  background-color: rgb(128, 128, 128);
+
+.columna {
+  background-color: rgb(27, 27, 27);
   padding: 10px;
   border-radius: 20px;
-  box-shadow: 0px 0px 2px 4px rgb(214, 212, 216);  
+  box-shadow: 0px 0px 2px 4px rgb(214, 212, 216);
+  width: 550px;
+  min-height: 250px;
 }
-.proyect-botons{
+
+.proyect-botons {
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 20px;
   width: 100%;
   height: 45px;
 }
-.proyect-botons a{
+
+.proyect-botons a {
   width: 100px;
   height: 40px;
   border: none;
   border-radius: 5px;
 }
+/* ---- Contacto --- */
+.contact{
+  width: 100%;
+}
 
+.contact-form{	
+	width: 100%;
+ 
+}
+.formulario{
+  width: 50%;
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+}
+.formulario span{
+  color: rgba(140, 0, 153, 0.726);
+}
+.formulario label{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.formulario input{
+  background-color: #fbfbfb; 
+	width: 100%;
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493;
+  height: 35px; 
+}
+.formulario textarea{
+  height: 150px;
+  border-style: solid; 
+	border-width: 1px; 
+	border-color: #ab4493;
+  margin-bottom: 10px
+}
+
+
+/* --- Pie de Página --- */
+.footer{
+  min-height: 200px;
+  padding:30px
+}
 /* Responsive */
 @media (max-width: 576px) {
 
@@ -220,9 +278,36 @@
   .row-icons {
     width: 100%;
   }
-/* ------ Proyetos ---------  */
 
+<<<<<<< HEAD
 .container-proyect{
   width: 100%;
 }
 }
+=======
+  /* ------ Proyetos ---------  */
+
+  .container-proyect {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .columna{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  /* --- Contacto --- */
+  .formulario{
+    width: 100%;
+    
+  }
+  .contact-form h3{
+    font-size: 16px;	
+
+  }
+
+}
+>>>>>>> cf70d78 (Version Final)
